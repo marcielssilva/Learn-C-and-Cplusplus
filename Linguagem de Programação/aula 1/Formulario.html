@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Formulário</title>
+</head>
+<body>
+    <h1> Cadastro de Clientes </h1>
+    <form method="POST" action="cadastro.php">
+    <label> Nome: <input type="text" name="nome" size="60" required></label><br><br>
+    <label> Endereço: <input type="text" name="endereço" size="60" required></label>
+    <label> Número: <input type="number" name="número" size="20" required></label><br><br>
+    <label> Cidade: <input type="text" name="cidade" size="40" required>
+        Estado <select>
+            <option name="estado" value="sp">SP
+            <option name="estado" value="rj">RJ
+            <option name="estado" value="mg">MG
+        </select></label><br><br>
+    <label>Telefone: <input type="tel" name="telefone" placeholder=" (XX)XXXXX-XXXX" size="20" required></label><br><br>
+    <label>Celular: <input type="tel" name="Celular" placeholder=" (XX)XXXXX-XXXX" size="20" required></label><br><br>
+    <label>E-mail: <input type="email" name="email" size="100" required></label>
+
+    
+</body>
+</html>
